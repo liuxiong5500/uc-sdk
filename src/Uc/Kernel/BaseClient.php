@@ -30,7 +30,7 @@ class BaseClient
     public function __construct(ServiceContainer $app)
     {
         $this->app = $app;
-        $this->baseUri = 'http://t-rst.vchangyi.com';
+        $this->baseUri = config('uc');
         $this->config = ['base_uri' => $this->baseUri];
     }
 
