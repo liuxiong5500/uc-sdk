@@ -1,6 +1,7 @@
 {
     "name": "uc-sdk/uc",
     "description": "uc-sdk",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
