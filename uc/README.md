@@ -1,34 +1,6 @@
 # laravel 调用UC包
 
 
-
-## install
-
-this package  for >= laravel5.5
-
-```
-composer require siaoynli/laravel-upload
-```
-
-add the ServiceProvider to the providers array in config/app.php
-
-```
-Siaoynli\Upload\UploadServiceProvider::class,
-```
-
-If you want to use the facade to log messages, add this to your facades in app.php:
-
-```
- 'Upload' => Siaoynli\Upload\Facades\Upload::class,
-  'Thumb' => Siaoynli\Upload\Facades\Thumb::class,
-```
-
-Copy the package config to your local config with the publish command:
-
-```
-php artisan vendor:publish --provider="Siaoynli\Upload\UploadServiceProvider"
-```
-
 ## Usage
 
 ```
